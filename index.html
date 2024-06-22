@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teddy Porfolio</title>
+
+    <link rel="stylesheet" href="/bulma/css/bulma.min.css" />
+  </head>
+  <body>
+    <nav class="navbar has-shadow">
+      <div class="navbar-brand">
+        <a href="#" class="navbar-item navbar-logo">
+          <span class="py-2 px-2">Site Logo</span>
+        </a>
+
+        <a class="navbar-burger" id="burger"> 
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span> 
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+          <a class="navbar-item"> My Account </a>
+
+          <a class="navbar-item"> Shopping Cart(0) </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="section pt-4 pb-0">
+        <nav class="breadcrumb has-arrow-separator">
+            <ul class="container">
+                <li> <a class="has-text-grey">Home</a></li>
+                <li> <a class="has-text-grey">Skirt</a></li>
+                <li class="is-active"> <a>Blue Long Skirt</a></li>
+            </ul>
+        </nav>   
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">
+                        Docker
+                    </h1>
+                    <h2 class="is-size-3-mobile is-size-2-desktop subtitle">
+                        Dark Roast
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, nihil. Facilis culpa unde laudantium, fugiat, incidunt at assumenda ullam earum beatae quia sequi architecto tempora iste sapiente, quaerat error adipisci.
+                    </p>
+                </div>
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
+                    <img src="https://hocwebchuan.com/reference/generator/dummy-image/400x600/CCCCCC/FFFFFF" alt="" srcset="" class="px-6">
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <div class="is-size-4 mb-4">
+                        $10.00
+                    </div>
+                    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, sunt explicabo aperiam quibusdam iusto aliquam?</p>
+                    <button class="button is-primary is-larger">
+                        Add Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-variable is-8">
+                <div class="column is-7-tablet">
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details"><a>Product Details</a></li>
+                            <li data-target="delivery-information"><a>Delivery Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">
+                                Product Details
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam molestias sapiente voluptas eum fugiat, id vitae, eligendi alias odio magnam tenetur a, doloribus blanditiis odit velit totam error labore.</p>    
+                        </div>
+
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">
+                                Delivery Information
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam molestias sapiente voluptas eum fugiat, id vitae, eligendi alias odio magnam tenetur a, doloribus blanditiis odit velit totam error labore.</p>    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-5-tablet">
+                    <div class="message is-warning">
+                        <div class="message-header">
+                            Message Header
+                        </div>
+                        <div class="message-body">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, consectetur vel! Velit, vitae! Inventore qui, assumenda vero perspiciatis excepturi cupiditate?
+                            </p>
+
+                            <div class="has-text-centered">
+                                <button class="button mt-5">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">
+                Related Product
+            </h3>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
