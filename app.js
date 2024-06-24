@@ -25,3 +25,14 @@ tabs.forEach((tab) => {
         }
     });
 })})
+
+const signInButton = document.querySelector('#signin-btn');
+const modal = document.querySelector('.modal');
+const modelBg = document.querySelector('.modal-background');
+signInButton.addEventListener('click', () => {
+  modal.classList.toggle('is-active');
+});
+
+modelBg.addEventListener('click', () => {
+  modal.classList.remove('is-active');
+});
